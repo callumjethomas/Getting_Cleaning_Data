@@ -1,5 +1,5 @@
 ---
-title: "README"
+title: "Getting and Cleaning Data Course Project"
 author: "Callum Thomas"
 date: "18/05/2020"
 output: html_document
@@ -8,5 +8,28 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+### Adaptation of: *Human Activity Recognition Using Smartphones Dataset Version 1.0*
+
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
+Smartlab - Non Linear Complex Systems Laboratory  
+DITEN - Università degli Studi di Genova.  
+Via Opera Pia 11A, I-16145, Genoa, Italy.  
+activityrecognition@smartlab.ws  
+www.smartlab.ws
+
+### Files
+
+This dataset contains the following files:
+
+- `README.txt`: this file.
+ 
+- `raw_data` a folder containing the original dataset produced by Reyes-Ortiz *et al*.
+ 
+- `CodeBook.Rmd`: contains information on the variables and steps taken to clean the data in the script.
+
+- `run_analysis.R`: R script for taking the original dataset produced by Reyes-Ortiz *et al*. and converting it to a clean, tidy dataset containing only the means and standard deviations of each variable for each activity performed by each subject. See `CodeBook.Rmd` for more details.
+
+- `new_data.csv`: the cleaned, tidy dataset which is output by the script.
 
 
